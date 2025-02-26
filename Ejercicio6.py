@@ -1,5 +1,7 @@
-import math
+def ejecutar():
+ numero1 = float(input("Introduce el primer numero: "))
 
-radio = float(input("intreduzca el radio del circulo: "))
-area = math.pi * (radio **2)
-print(f"El area del circulo con radio {radio} metros es: {area:.2f}metros cuadrados")
+ numero2 = float(input("Introduce el segundo numero: "))
+
+ suma = numero1 + numero2
+ print(f"la suma de {numero1} y {numero2} es: {suma}")

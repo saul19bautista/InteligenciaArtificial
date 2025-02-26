@@ -6,6 +6,3 @@ def ejecutar():
     print(f"Nombre: {nombre}")
     print(f"Edad: {edad}")
     print(f"Altura: {altura}")
-
-    edad_en_5_anos = edad + 5
-    print(f"Edad en 5 años: {edad_en_5_anos}")

@@ -1,10 +1,11 @@
-# Solicitar datos al usuario
-a = float(input("Ingresa el primer número: "))
-b = float(input("Ingresa el segundo número: "))
-
-resta = a - b
-multiplicacion = a * b
-
-print(f"\nEl resultado de la resta de {a} - {b} es: {resta}\n")
-print(f"El resultado de la multiplicación de {a} * {b} es: {multiplicacion}\n")
-print("¡Programa realizado por Saul!")
+def ejecutar(): 
+ num1 = float(input("Ingrese un numero"))
+ num2 = float(input("Ingrese un numero"))
+ resta = num1 - num2
+ print()
+ print(f"el resultado de la resta de {num1}{"-"}{ num2} {"es: "},{resta}")
+ print()
+ multiplicacion = num1 * num2
+ print(f"el resultado de la multiplicacion de  {num1}{"*"}{ num2} {"es: "},{multiplicacion}")
+ print()
+ print("Programa realizado por Saul") 

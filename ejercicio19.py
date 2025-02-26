@@ -1,18 +1,15 @@
-class Nodo:
-    def __init__(self, valor):
-        self.valor = valor
-        self.siguiente = None 
+def ejecutar():
+    datos_temperatura = {
+        "mañana": 20,
+        "tarde": 25,
+        "noche": 18
+    }
 
-nodo1 = Nodo(10)
-nodo2 = Nodo(20)
-nodo3 = Nodo(30)
+    def predecir_temperatura(hora):
+        return datos_temperatura.get(hora, "Hora no válida") 
 
-nodo1.siguiente = nodo2 
-nodo2.siguiente = nodo3  
+    hora = "tarde"
+    print(f"La temperatura promedio en la {hora} es: {predecir_temperatura(hora)}°C")
 
-actual = nodo1
-while actual:
-    print(f"[{actual.valor}] ->", end=" ")
-    actual = actual.siguiente
-print("None") 
-
+if __name__ == "__main__":
+    ejecutar()
